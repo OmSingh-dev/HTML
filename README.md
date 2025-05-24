@@ -1,5 +1,5 @@
 # HTML
-*Today's task:*
+index.html *Today's task:*
 Create a webpage with a heading and paragraph.
 Add an image.
 Create a table with two rows and two columns.
