@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Example</title>
+  <style>
+    body {
+      background-color: lightblue; /* Light blue background */
+    }
+
+    h1 {
+      font-weight: bold;
+      font-size: 32px;
+      color: darkblue;
+    }
+
+    img {
+      border: 3px solid black;
+      width: 150px;
+      height: auto;
+    }
+
+    .styled-button {
+      background-color: greenyellow;
+      color: black;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .styled-button:hover {
+      background-color: greenyellow;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Registration Form</h1>
+
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+
+    Gender:
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female<br><br>
+
+    Hobbies:<br>
+    <input type="checkbox" name="hobby" value="reading"> Reading<br>
+    <input type="checkbox" name="hobby" value="sports"> Sports<br>
+    <input type="checkbox" name="hobby" value="music"> Music<br><br>
+
+    <button type="submit" class="styled-button">Submit</button>
+  </form>
+
+  <br>
+  <img src="https://cdn.pixabay.com/photo/2015/10/09/00/55/lotus-978659_1280.jpg" alt="Sample Image">
+
+</body>
+</html>
